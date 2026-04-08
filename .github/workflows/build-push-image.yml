@@ -1,11 +1,6 @@
 name: Build and Push Image
 run-name: Build and Push Image
 on: [push]
-
-permission:
-  contents: read
-  packages: write
-
 jobs:
   build-push-image:
     runs-on: ubuntu-latest
